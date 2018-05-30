@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/briliantbrandon/twitchue#readme",
   "devDependencies": {
-    "electron": "^2.0.1"
+    "electron": "^2.0.1",
+    "express": "^4.16.3"
   }
 }
