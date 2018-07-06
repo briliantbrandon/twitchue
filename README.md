@@ -1,2 +1,2 @@
 # twitchue
-Hue Light Controller that responds to Webhook Events from Twitch
+Hue Light Controller that responds to websocket events from Streamlabs
