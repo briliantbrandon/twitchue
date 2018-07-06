@@ -1,7 +1,13 @@
 const {app, BrowserWindow} = require('electron')
 const path = require('path')
 const url = require('url')
-const express = require('express')
+const childProcess = require('child_process')
+
+
+function createAPI() {
+	process = childProcess.fork('./app/api.js')
+	return process
+}
 
 function createWindow() {
 	win = new BrowserWindow({width: 800, height: 600})
@@ -13,4 +19,5 @@ function createWindow() {
 	}))
 }
 
+api = createAPI()
 app.on('ready', createWindow)
