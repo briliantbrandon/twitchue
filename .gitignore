@@ -1,2 +1,4 @@
+node_modules/
 .vscode/
+./config.js
 gui/scripts/config.js

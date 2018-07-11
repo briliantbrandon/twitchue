@@ -19,5 +19,11 @@ function createWindow() {
 	}))
 }
 
-api = createAPI()
-app.on('ready', createWindow)
+api = createAPI();
+app.on('ready', createWindow);
+
+app.on('window-all-closed', function(){
+	console.log("Killing API");
+	api.kill('SIGINT');
+	app.exit(0);
+});
