@@ -1,0 +1,1589 @@
+
+> twitchue@0.1.0 start C:\Users\hollo\Documents\GitHub\twitchue
+> electron .
+
+
+We are live on 8000
+{
+  "lights": {
+    "1": {
+      "state": {
+        "on": true,
+        "bri": 254,
+        "hue": 53646,
+        "sat": 232,
+        "effect": "none",
+        "xy": [
+          0.3474,
+          0.1606
+        ],
+        "ct": 200,
+        "alert": "none",
+        "colormode": "xy",
+        "mode": "homeautomation",
+        "reachable": true
+      },
+      "swupdate": {
+        "state": "noupdates",
+        "lastinstall": "2017-12-29T18:03:47"
+      },
+      "type": "Extended color light",
+      "name": "Right Hanging Lamp",
+      "modelid": "LCT014",
+      "manufacturername": "Philips",
+      "productname": "Hue color lamp",
+      "capabilities": {
+        "certified": true,
+        "control": {
+          "mindimlevel": 1000,
+          "maxlumen": 800,
+          "colorgamuttype": "C",
+          "colorgamut": [
+            [
+              0.6915,
+              0.3083
+            ],
+            [
+              0.17,
+              0.7
+            ],
+            [
+              0.1532,
+              0.0475
+            ]
+          ],
+          "ct": {
+            "min": 153,
+            "max": 500
+          }
+        },
+        "streaming": {
+          "renderer": true,
+          "proxy": true
+        }
+      },
+      "config": {
+        "archetype": "sultanbulb",
+        "function": "mixed",
+        "direction": "omnidirectional"
+      },
+      "uniqueid": "00:17:88:01:02:76:a1:ab-0b",
+      "swversion": "1.29.0_r21169",
+      "swconfigid": "3027B5DE",
+      "productid": "Philips-LCT014-1-A19ECLv4"
+    },
+    "2": {
+      "state": {
+        "on": true,
+        "bri": 254,
+        "hue": 46014,
+        "sat": 254,
+        "effect": "none",
+        "xy": [
+          0.154,
+          0.0806
+        ],
+        "ct": 153,
+        "alert": "none",
+        "colormode": "xy",
+        "mode": "homeautomation",
+        "reachable": true
+      },
+      "swupdate": {
+        "state": "noupdates",
+        "lastinstall": "2017-12-29T18:03:41"
+      },
+      "type": "Extended color light",
+      "name": "Left Hanging Lamp",
+      "modelid": "LCT014",
+      "manufacturername": "Philips",
+      "productname": "Hue color lamp",
+      "capabilities": {
+        "certified": true,
+        "control": {
+          "mindimlevel": 1000,
+          "maxlumen": 800,
+          "colorgamuttype": "C",
+          "colorgamut": [
+            [
+              0.6915,
+              0.3083
+            ],
+            [
+              0.17,
+              0.7
+            ],
+            [
+              0.1532,
+              0.0475
+            ]
+          ],
+          "ct": {
+            "min": 153,
+            "max": 500
+          }
+        },
+        "streaming": {
+          "renderer": true,
+          "proxy": true
+        }
+      },
+      "config": {
+        "archetype": "sultanbulb",
+        "function": "mixed",
+        "direction": "omnidirectional"
+      },
+      "uniqueid": "00:17:88:01:02:73:cf:07-0b",
+      "swversion": "1.29.0_r21169",
+      "swconfigid": "3027B5DE",
+      "productid": "Philips-LCT014-1-A19ECLv4"
+    },
+    "3": {
+      "state": {
+        "on": true,
+        "bri": 147,
+        "hue": 45813,
+        "sat": 254,
+        "effect": "none",
+        "xy": [
+          0.1542,
+          0.0867
+        ],
+        "ct": 153,
+        "alert": "none",
+        "colormode": "xy",
+        "mode": "homeautomation",
+        "reachable": true
+      },
+      "swupdate": {
+        "state": "noupdates",
+        "lastinstall": "2017-12-29T18:03:57"
+      },
+      "type": "Extended color light",
+      "name": "Orb",
+      "modelid": "LCT014",
+      "manufacturername": "Philips",
+      "productname": "Hue color lamp",
+      "capabilities": {
+        "certified": true,
+        "control": {
+          "mindimlevel": 1000,
+          "maxlumen": 800,
+          "colorgamuttype": "C",
+          "colorgamut": [
+            [
+              0.6915,
+              0.3083
+            ],
+            [
+              0.17,
+              0.7
+            ],
+            [
+              0.1532,
+              0.0475
+            ]
+          ],
+          "ct": {
+            "min": 153,
+            "max": 500
+          }
+        },
+        "streaming": {
+          "renderer": true,
+          "proxy": true
+        }
+      },
+      "config": {
+        "archetype": "sultanbulb",
+        "function": "mixed",
+        "direction": "omnidirectional"
+      },
+      "uniqueid": "00:17:88:01:02:7b:82:5a-0b",
+      "swversion": "1.29.0_r21169",
+      "swconfigid": "3027B5DE",
+      "productid": "Philips-LCT014-1-A19ECLv4"
+    },
+    "4": {
+      "state": {
+        "on": true,
+        "bri": 254,
+        "hue": 48886,
+        "sat": 218,
+        "effect": "none",
+        "xy": [
+          0.2301,
+          0.1158
+        ],
+        "ct": 153,
+        "alert": "none",
+        "colormode": "xy",
+        "mode": "homeautomation",
+        "reachable": true
+      },
+      "swupdate": {
+        "state": "noupdates",
+        "lastinstall": "2017-12-29T18:03:39"
+      },
+      "type": "Extended color light",
+      "name": "Bar Lights",
+      "modelid": "LST002",
+      "manufacturername": "Philips",
+      "productname": "Hue lightstrip plus",
+      "capabilities": {
+        "certified": true,
+        "control": {
+          "mindimlevel": 40,
+          "maxlumen": 1600,
+          "colorgamuttype": "C",
+          "colorgamut": [
+            [
+              0.6915,
+              0.3083
+            ],
+            [
+              0.17,
+              0.7
+            ],
+            [
+              0.1532,
+              0.0475
+            ]
+          ],
+          "ct": {
+            "min": 153,
+            "max": 500
+          }
+        },
+        "streaming": {
+          "renderer": true,
+          "proxy": true
+        }
+      },
+      "config": {
+        "archetype": "huelightstrip",
+        "function": "mixed",
+        "direction": "omnidirectional"
+      },
+      "uniqueid": "00:17:88:01:02:9c:76:83-0b",
+      "swversion": "1.29.0_r21169",
+      "swconfigid": "0612AD68",
+      "productid": "Philips-LST002-1-LedStripsv3"
+    },
+    "5": {
+      "state": {
+        "on": true,
+        "bri": 126,
+        "hue": 57332,
+        "sat": 244,
+        "effect": "none",
+        "xy": [
+          0.4491,
+          0.1995
+        ],
+        "ct": 350,
+        "alert": "none",
+        "colormode": "xy",
+        "mode": "homeautomation",
+        "reachable": true
+      },
+      "swupdate": {
+        "state": "noupdates",
+        "lastinstall": "2018-04-20T23:53:21"
+      },
+      "type": "Extended color light",
+      "name": "Left Desk",
+      "modelid": "LCT016",
+      "manufacturername": "Philips",
+      "productname": "Hue color lamp",
+      "capabilities": {
+        "certified": true,
+        "control": {
+          "mindimlevel": 1000,
+          "maxlumen": 800,
+          "colorgamuttype": "C",
+          "colorgamut": [
+            [
+              0.6915,
+              0.3083
+            ],
+            [
+              0.17,
+              0.7
+            ],
+            [
+              0.1532,
+              0.0475
+            ]
+          ],
+          "ct": {
+            "min": 153,
+            "max": 500
+          }
+        },
+        "streaming": {
+          "renderer": true,
+          "proxy": true
+        }
+      },
+      "config": {
+        "archetype": "sultanbulb",
+        "function": "mixed",
+        "direction": "omnidirectional"
+      },
+      "uniqueid": "00:17:88:01:03:60:c2:f4-0b",
+      "swversion": "1.29.0_r21169",
+      "swconfigid": "FB3DCCB4",
+      "productid": "Philips-LCT016-1-A19ECLv5"
+    },
+    "6": {
+      "state": {
+        "on": true,
+        "bri": 123,
+        "hue": 44687,
+        "sat": 253,
+        "effect": "none",
+        "xy": [
+          0.156,
+          0.1219
+        ],
+        "ct": 153,
+        "alert": "none",
+        "colormode": "xy",
+        "mode": "homeautomation",
+        "reachable": true
+      },
+      "swupdate": {
+        "state": "noupdates",
+        "lastinstall": "2018-04-20T23:53:27"
+      },
+      "type": "Extended color light",
+      "name": "Right Desk",
+      "modelid": "LCT014",
+      "manufacturername": "Philips",
+      "productname": "Hue color lamp",
+      "capabilities": {
+        "certified": true,
+        "control": {
+          "mindimlevel": 1000,
+          "maxlumen": 800,
+          "colorgamuttype": "C",
+          "colorgamut": [
+            [
+              0.6915,
+              0.3083
+            ],
+            [
+              0.17,
+              0.7
+            ],
+            [
+              0.1532,
+              0.0475
+            ]
+          ],
+          "ct": {
+            "min": 153,
+            "max": 500
+          }
+        },
+        "streaming": {
+          "renderer": true,
+          "proxy": true
+        }
+      },
+      "config": {
+        "archetype": "sultanbulb",
+        "function": "mixed",
+        "direction": "omnidirectional"
+      },
+      "uniqueid": "00:17:88:01:02:e9:3e:8e-0b",
+      "swversion": "1.29.0_r21169",
+      "swconfigid": "3027B5DE",
+      "productid": "Philips-LCT014-1-A19ECLv4"
+    }
+  },
+  "groups": {
+    "1": {
+      "name": "Bedroom",
+      "lights": [
+        "3"
+      ],
+      "type": "Room",
+      "state": {
+        "all_on": true,
+        "any_on": true
+      },
+      "recycle": false,
+      "class": "Bedroom",
+      "action": {
+        "on": true,
+        "bri": 147,
+        "hue": 45813,
+        "sat": 254,
+        "effect": "none",
+        "xy": [
+          0.1542,
+          0.0867
+        ],
+        "ct": 153,
+        "alert": "none",
+        "colormode": "xy"
+      }
+    },
+    "2": {
+      "name": "Kitchen",
+      "lights": [
+        "4"
+      ],
+      "type": "Room",
+      "state": {
+        "all_on": true,
+        "any_on": true
+      },
+      "recycle": false,
+      "class": "Kitchen",
+      "action": {
+        "on": true,
+        "bri": 254,
+        "hue": 48886,
+        "sat": 218,
+        "effect": "none",
+        "xy": [
+          0.2301,
+          0.1158
+        ],
+        "ct": 153,
+        "alert": "none",
+        "colormode": "xy"
+      }
+    },
+    "3": {
+      "name": "Living Room",
+      "lights": [
+        "1",
+        "2"
+      ],
+      "type": "Room",
+      "state": {
+        "all_on": true,
+        "any_on": true
+      },
+      "recycle": false,
+      "class": "Living room",
+      "action": {
+        "on": true,
+        "bri": 254,
+        "hue": 46014,
+        "sat": 254,
+        "effect": "none",
+        "xy": [
+          0.154,
+          0.0806
+        ],
+        "ct": 153,
+        "alert": "none",
+        "colormode": "xy"
+      }
+    },
+    "4": {
+      "name": "Group for wakeup",
+      "lights": [
+        "3"
+      ],
+      "type": "LightGroup",
+      "state": {
+        "all_on": true,
+        "any_on": true
+      },
+      "recycle": true,
+      "action": {
+        "on": true,
+        "bri": 147,
+        "hue": 45813,
+        "sat": 254,
+        "effect": "none",
+        "xy": [
+          0.1542,
+          0.0867
+        ],
+        "ct": 153,
+        "alert": "none",
+        "colormode": "xy"
+      }
+    },
+    "6": {
+      "name": "Desk",
+      "lights": [
+        "5",
+        "6"
+      ],
+      "type": "Room",
+      "state": {
+        "all_on": true,
+        "any_on": true
+      },
+      "recycle": false,
+      "class": "Recreation",
+      "action": {
+        "on": true,
+        "bri": 123,
+        "hue": 44687,
+        "sat": 253,
+        "effect": "none",
+        "xy": [
+          0.156,
+          0.1219
+        ],
+        "ct": 153,
+        "alert": "none",
+        "colormode": "xy"
+      }
+    }
+  },
+  "config": {
+    "name": "Philips hue",
+    "zigbeechannel": 15,
+    "bridgeid": "001788FFFE41A108",
+    "mac": "00:17:88:41:a1:08",
+    "dhcp": true,
+    "ipaddress": "192.168.1.77",
+    "netmask": "255.255.255.0",
+    "gateway": "192.168.1.254",
+    "proxyaddress": "none",
+    "proxyport": 0,
+    "UTC": "2018-07-15T20:39:41",
+    "localtime": "2018-07-15T15:39:41",
+    "timezone": "America/Chicago",
+    "modelid": "BSB002",
+    "datastoreversion": "71",
+    "swversion": "1806051111",
+    "apiversion": "1.26.0",
+    "swupdate": {
+      "updatestate": 0,
+      "checkforupdate": false,
+      "devicetypes": {
+        "bridge": false,
+        "lights": [],
+        "sensors": []
+      },
+      "url": "",
+      "text": "",
+      "notify": true
+    },
+    "swupdate2": {
+      "checkforupdate": false,
+      "lastchange": "2018-07-14T19:09:59",
+      "bridge": {
+        "state": "noupdates",
+        "lastinstall": "2018-07-14T19:09:01"
+      },
+      "state": "noupdates",
+      "autoinstall": {
+        "updatetime": "T14:00:00",
+        "on": false
+      }
+    },
+    "linkbutton": false,
+    "portalservices": true,
+    "portalconnection": "connected",
+    "portalstate": {
+      "signedon": true,
+      "incoming": false,
+      "outgoing": true,
+      "communication": "disconnected"
+    },
+    "internetservices": {
+      "internet": "connected",
+      "remoteaccess": "connected",
+      "time": "connected",
+      "swupdate": "connected"
+    },
+    "factorynew": false,
+    "replacesbridgeid": null,
+    "backup": {
+      "status": "idle",
+      "errorcode": 0
+    },
+    "starterkitid": "",
+    "whitelist": {
+      "6VbdP3K547TPKIK7WUlRew5UD5Mig9VizW3HZp8A": {
+        "last use date": "2018-07-15T06:23:56",
+        "create date": "2017-08-26T01:32:39",
+        "name": "hue_ios_app#Brandon's iPhone"
+      },
+      "AfMR5MQcLN16KZMOj-XwOdr37s9g5hCmRVpq90i0": {
+        "last use date": "2018-04-21T02:00:07",
+        "create date": "2018-04-06T22:39:05",
+        "name": "python_hue"
+      },
+      "a4UHCrm4HRUIN63dkodZVkY8ZpaFPY8fWubTxSy3": {
+        "last use date": "2018-04-07T04:22:22",
+        "create date": "2018-04-07T04:02:19",
+        "name": "python_hue"
+      },
+      "mdb6rvaZp2z-y4onyrjuDX11-e7L1SaeZKyKXMZq": {
+        "last use date": "2018-04-14T23:15:07",
+        "create date": "2018-04-14T23:01:32",
+        "name": "hue_ios_app#Brandon's iPhone"
+      },
+      "KeKDZBr9w3kPTBdVRKM5LV94VXwXJEF2TD0DQ5dG": {
+        "last use date": "2018-04-14T23:15:07",
+        "create date": "2018-04-14T23:02:04",
+        "name": "hue_ios_app#Brandon's iPhone"
+      },
+      "iaB0vK1vpskwuLGK72YqQs6YXVTt8dTlbtu0hrir": {
+        "last use date": "2018-07-15T17:53:56",
+        "create date": "2018-04-14T23:16:03",
+        "name": "RazerDetectManager#PC"
+      },
+      "flrXcu4lkjNDz7LC4nOeHLLyjVdU9UVPFxCtLTzj": {
+        "last use date": "2018-07-15T20:39:41",
+        "create date": "2018-07-11T00:48:31",
+        "name": "User for TwitchHue"
+      }
+    }
+  },
+  "schedules": {
+    "1": {
+      "name": "Wake up 1",
+      "description": "L_04_CevlR_start wake up",
+      "command": {
+        "address": "/api/6VbdP3K547TPKIK7WUlRew5UD5Mig9Vi/sensors/3/state",
+        "body": {
+          "flag": true
+        },
+        "method": "PUT"
+      },
+      "localtime": "W124/T06:05:00",
+      "time": "W124/T11:05:00",
+      "created": "2018-02-21T06:20:29",
+      "status": "disabled",
+      "recycle": true
+    },
+    "2": {
+      "name": "L_04_CevlR",
+      "description": "L_04_CevlR_trigger end scene",
+      "command": {
+        "address": "/api/6VbdP3K547TPKIK7WUlRew5UD5Mig9Vi/groups/0/action",
+        "body": {
+          "scene": "o8mFWopq1GF802r"
+        },
+        "method": "PUT"
+      },
+      "localtime": "PT00:01:00",
+      "time": "PT00:01:00",
+      "created": "2018-02-21T06:20:29",
+      "status": "disabled",
+      "autodelete": false,
+      "starttime": "2018-02-21T06:20:29",
+      "recycle": true
+    }
+  },
+  "scenes": {
+    "1Vs60oZ7WtKGTLA": {
+      "name": "Sex",
+      "lights": [
+        "1",
+        "2"
+      ],
+      "owner": "6VbdP3K547TPKIK7WUlRew5UD5Mig9VizW3HZp8A",
+      "recycle": false,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "GZmo9_r03_d99"
+      },
+      "picture": "",
+      "lastupdated": "2017-09-10T02:39:59",
+      "version": 2
+    },
+    "Jq0HDvJLdrnYSUH": {
+      "name": "Relax",
+      "lights": [
+        "3"
+      ],
+      "owner": "6VbdP3K547TPKIK7WUlRew5UD5Mig9VizW3HZp8A",
+      "recycle": false,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "pYVxr_r01_d01"
+      },
+      "picture": "",
+      "lastupdated": "2018-04-21T00:53:05",
+      "version": 2
+    },
+    "apGJoD9F6SkpF0P": {
+      "name": "Read",
+      "lights": [
+        "3"
+      ],
+      "owner": "6VbdP3K547TPKIK7WUlRew5UD5Mig9VizW3HZp8A",
+      "recycle": false,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "xInVz_r01_d02"
+      },
+      "picture": "",
+      "lastupdated": "2018-04-21T00:53:05",
+      "version": 2
+    },
+    "CdEHCeKYzAZXZPq": {
+      "name": "Concentrate",
+      "lights": [
+        "3"
+      ],
+      "owner": "6VbdP3K547TPKIK7WUlRew5UD5Mig9VizW3HZp8A",
+      "recycle": false,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "z9NP8_r01_d03"
+      },
+      "picture": "",
+      "lastupdated": "2018-04-21T00:53:05",
+      "version": 2
+    },
+    "9os3uLKqHqWzU5K": {
+      "name": "Energize",
+      "lights": [
+        "3"
+      ],
+      "owner": "6VbdP3K547TPKIK7WUlRew5UD5Mig9VizW3HZp8A",
+      "recycle": false,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "GbIHY_r01_d04"
+      },
+      "picture": "",
+      "lastupdated": "2018-04-21T00:53:05",
+      "version": 2
+    },
+    "QCD2Zyx8GcPIkQR": {
+      "name": "Bright",
+      "lights": [
+        "3"
+      ],
+      "owner": "6VbdP3K547TPKIK7WUlRew5UD5Mig9VizW3HZp8A",
+      "recycle": false,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "p1zMf_r01_d05"
+      },
+      "picture": "",
+      "lastupdated": "2018-04-21T00:53:05",
+      "version": 2
+    },
+    "RtRdftgn4Nsp9eK": {
+      "name": "Dimmed",
+      "lights": [
+        "3"
+      ],
+      "owner": "6VbdP3K547TPKIK7WUlRew5UD5Mig9VizW3HZp8A",
+      "recycle": false,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "0hTzC_r01_d06"
+      },
+      "picture": "",
+      "lastupdated": "2018-04-21T00:53:05",
+      "version": 2
+    },
+    "0A9m4q7fYCkWJ-m": {
+      "name": "Nightlight",
+      "lights": [
+        "3"
+      ],
+      "owner": "6VbdP3K547TPKIK7WUlRew5UD5Mig9VizW3HZp8A",
+      "recycle": false,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "KbewD_r01_d07"
+      },
+      "picture": "",
+      "lastupdated": "2018-04-21T00:53:05",
+      "version": 2
+    },
+    "bwA7D2vKo2w6Dfq": {
+      "name": "Savanna sunset",
+      "lights": [
+        "3"
+      ],
+      "owner": "6VbdP3K547TPKIK7WUlRew5UD5Mig9VizW3HZp8A",
+      "recycle": false,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "u6c5v_r01_d15"
+      },
+      "picture": "",
+      "lastupdated": "2018-04-21T00:53:05",
+      "version": 2
+    },
+    "ePitBGBf6VkcBj9": {
+      "name": "Tropical twilight",
+      "lights": [
+        "3"
+      ],
+      "owner": "6VbdP3K547TPKIK7WUlRew5UD5Mig9VizW3HZp8A",
+      "recycle": false,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "iJYwM_r01_d16"
+      },
+      "picture": "",
+      "lastupdated": "2018-04-21T00:53:05",
+      "version": 2
+    },
+    "vJSTdNw7X26H0VY": {
+      "name": "Arctic aurora",
+      "lights": [
+        "3"
+      ],
+      "owner": "6VbdP3K547TPKIK7WUlRew5UD5Mig9VizW3HZp8A",
+      "recycle": false,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "Z3a3Z_r01_d17"
+      },
+      "picture": "",
+      "lastupdated": "2018-04-21T00:53:05",
+      "version": 2
+    },
+    "4yWfHxzZI6RQSkm": {
+      "name": "Spring blossom",
+      "lights": [
+        "3"
+      ],
+      "owner": "6VbdP3K547TPKIK7WUlRew5UD5Mig9VizW3HZp8A",
+      "recycle": false,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "xjmty_r01_d18"
+      },
+      "picture": "",
+      "lastupdated": "2018-04-21T00:53:05",
+      "version": 2
+    },
+    "prWidJT7sTNV1r8": {
+      "name": "Relax",
+      "lights": [
+        "4"
+      ],
+      "owner": "6VbdP3K547TPKIK7WUlRew5UD5Mig9VizW3HZp8A",
+      "recycle": false,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "9oNS0_r02_d01"
+      },
+      "picture": "",
+      "lastupdated": "2017-12-28T22:19:06",
+      "version": 2
+    },
+    "fgKmjYNrWj24OaQ": {
+      "name": "Relax",
+      "lights": [
+        "1",
+        "2"
+      ],
+      "owner": "6VbdP3K547TPKIK7WUlRew5UD5Mig9VizW3HZp8A",
+      "recycle": false,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "YJ52V_r03_d01"
+      },
+      "picture": "",
+      "lastupdated": "2017-09-09T21:38:30",
+      "version": 2
+    },
+    "9f2WrVGoBjmvffz": {
+      "name": "Read",
+      "lights": [
+        "1",
+        "2"
+      ],
+      "owner": "6VbdP3K547TPKIK7WUlRew5UD5Mig9VizW3HZp8A",
+      "recycle": false,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "ut3wz_r03_d02"
+      },
+      "picture": "",
+      "lastupdated": "2017-09-09T21:38:30",
+      "version": 2
+    },
+    "euYBG9gfzMX3jie": {
+      "name": "Concentrate",
+      "lights": [
+        "1",
+        "2"
+      ],
+      "owner": "6VbdP3K547TPKIK7WUlRew5UD5Mig9VizW3HZp8A",
+      "recycle": false,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "e5lr8_r03_d03"
+      },
+      "picture": "",
+      "lastupdated": "2017-09-09T21:38:30",
+      "version": 2
+    },
+    "W7e3YYTfYlL-0Lx": {
+      "name": "Energize",
+      "lights": [
+        "1",
+        "2"
+      ],
+      "owner": "6VbdP3K547TPKIK7WUlRew5UD5Mig9VizW3HZp8A",
+      "recycle": false,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "GJXJ3_r03_d04"
+      },
+      "picture": "",
+      "lastupdated": "2017-09-09T21:38:31",
+      "version": 2
+    },
+    "qIJqdotGNmwT7ON": {
+      "name": "Bright",
+      "lights": [
+        "1",
+        "2"
+      ],
+      "owner": "6VbdP3K547TPKIK7WUlRew5UD5Mig9VizW3HZp8A",
+      "recycle": false,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "qdWZC_r03_d05"
+      },
+      "picture": "",
+      "lastupdated": "2017-09-09T21:38:32",
+      "version": 2
+    },
+    "U8VN-DnB2X3rAy6": {
+      "name": "Dimmed",
+      "lights": [
+        "1",
+        "2"
+      ],
+      "owner": "6VbdP3K547TPKIK7WUlRew5UD5Mig9VizW3HZp8A",
+      "recycle": false,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "uIL7f_r03_d06"
+      },
+      "picture": "",
+      "lastupdated": "2017-09-09T21:38:32",
+      "version": 2
+    },
+    "IO7VrUJifcByRYw": {
+      "name": "Nightlight",
+      "lights": [
+        "1",
+        "2"
+      ],
+      "owner": "6VbdP3K547TPKIK7WUlRew5UD5Mig9VizW3HZp8A",
+      "recycle": false,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "AzBqD_r03_d07"
+      },
+      "picture": "",
+      "lastupdated": "2017-09-09T21:38:32",
+      "version": 2
+    },
+    "XwG2gPYwPVhDLGu": {
+      "name": "Savanna sunset",
+      "lights": [
+        "1",
+        "2"
+      ],
+      "owner": "6VbdP3K547TPKIK7WUlRew5UD5Mig9VizW3HZp8A",
+      "recycle": false,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "FTDEg_r03_d15"
+      },
+      "picture": "",
+      "lastupdated": "2017-09-09T21:38:32",
+      "version": 2
+    },
+    "ZMQN5zmVXueuuXs": {
+      "name": "Tropical twilight",
+      "lights": [
+        "1",
+        "2"
+      ],
+      "owner": "6VbdP3K547TPKIK7WUlRew5UD5Mig9VizW3HZp8A",
+      "recycle": false,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "icGmk_r03_d16"
+      },
+      "picture": "",
+      "lastupdated": "2017-09-09T21:38:32",
+      "version": 2
+    },
+    "vVPHMyMzo7JtWnq": {
+      "name": "Arctic aurora",
+      "lights": [
+        "1",
+        "2"
+      ],
+      "owner": "6VbdP3K547TPKIK7WUlRew5UD5Mig9VizW3HZp8A",
+      "recycle": false,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "ftjUt_r03_d17"
+      },
+      "picture": "",
+      "lastupdated": "2017-09-09T21:38:32",
+      "version": 2
+    },
+    "TI3pFyU5aHINN0o": {
+      "name": "Spring blossom",
+      "lights": [
+        "1",
+        "2"
+      ],
+      "owner": "6VbdP3K547TPKIK7WUlRew5UD5Mig9VizW3HZp8A",
+      "recycle": false,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "DaM9c_r03_d18"
+      },
+      "picture": "",
+      "lastupdated": "2017-09-09T21:38:32",
+      "version": 2
+    },
+    "X1gJNgFdggjOdtj": {
+      "name": "Read",
+      "lights": [
+        "4"
+      ],
+      "owner": "6VbdP3K547TPKIK7WUlRew5UD5Mig9VizW3HZp8A",
+      "recycle": false,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "EPbp3_r02_d02"
+      },
+      "picture": "",
+      "lastupdated": "2017-12-28T22:19:06",
+      "version": 2
+    },
+    "Cp47HITEzbIsUl1": {
+      "name": "Concentrate",
+      "lights": [
+        "4"
+      ],
+      "owner": "6VbdP3K547TPKIK7WUlRew5UD5Mig9VizW3HZp8A",
+      "recycle": false,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "ErY8E_r02_d03"
+      },
+      "picture": "",
+      "lastupdated": "2017-12-28T22:19:06",
+      "version": 2
+    },
+    "PGaEtDnGAYyFWhq": {
+      "name": "Energize",
+      "lights": [
+        "4"
+      ],
+      "owner": "6VbdP3K547TPKIK7WUlRew5UD5Mig9VizW3HZp8A",
+      "recycle": false,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "ucRwn_r02_d04"
+      },
+      "picture": "",
+      "lastupdated": "2017-12-28T22:19:06",
+      "version": 2
+    },
+    "lQNC-lMDT69vhfg": {
+      "name": "Bright",
+      "lights": [
+        "4"
+      ],
+      "owner": "6VbdP3K547TPKIK7WUlRew5UD5Mig9VizW3HZp8A",
+      "recycle": false,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "hUhJg_r02_d05"
+      },
+      "picture": "",
+      "lastupdated": "2017-12-28T22:19:06",
+      "version": 2
+    },
+    "fGqTBgB3N4K3wSr": {
+      "name": "Dimmed",
+      "lights": [
+        "4"
+      ],
+      "owner": "6VbdP3K547TPKIK7WUlRew5UD5Mig9VizW3HZp8A",
+      "recycle": false,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "IYnjW_r02_d06"
+      },
+      "picture": "",
+      "lastupdated": "2017-12-28T22:19:06",
+      "version": 2
+    },
+    "HddHQK7fqFzPlcR": {
+      "name": "Nightlight",
+      "lights": [
+        "4"
+      ],
+      "owner": "6VbdP3K547TPKIK7WUlRew5UD5Mig9VizW3HZp8A",
+      "recycle": false,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "73LRM_r02_d07"
+      },
+      "picture": "",
+      "lastupdated": "2017-12-28T22:19:06",
+      "version": 2
+    },
+    "vTQwtSoYbkbbjHq": {
+      "name": "Savanna sunset",
+      "lights": [
+        "4"
+      ],
+      "owner": "6VbdP3K547TPKIK7WUlRew5UD5Mig9VizW3HZp8A",
+      "recycle": false,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "ptB5D_r02_d15"
+      },
+      "picture": "",
+      "lastupdated": "2017-12-28T22:19:06",
+      "version": 2
+    },
+    "D5PrA20fom5PsVL": {
+      "name": "Tropical twilight",
+      "lights": [
+        "4"
+      ],
+      "owner": "6VbdP3K547TPKIK7WUlRew5UD5Mig9VizW3HZp8A",
+      "recycle": false,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "35AwB_r02_d16"
+      },
+      "picture": "",
+      "lastupdated": "2017-12-28T22:19:06",
+      "version": 2
+    },
+    "41dZ0d08JY8RWAE": {
+      "name": "Arctic aurora",
+      "lights": [
+        "4"
+      ],
+      "owner": "6VbdP3K547TPKIK7WUlRew5UD5Mig9VizW3HZp8A",
+      "recycle": false,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "TBzlk_r02_d17"
+      },
+      "picture": "",
+      "lastupdated": "2017-12-28T22:19:06",
+      "version": 2
+    },
+    "Ximn5bXj3siNxZR": {
+      "name": "Spring blossom",
+      "lights": [
+        "4"
+      ],
+      "owner": "6VbdP3K547TPKIK7WUlRew5UD5Mig9VizW3HZp8A",
+      "recycle": false,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "gOFtl_r02_d18"
+      },
+      "picture": "",
+      "lastupdated": "2017-12-28T22:19:06",
+      "version": 2
+    },
+    "DwtbDGYhkXb13re": {
+      "name": "Wake Up init",
+      "lights": [
+        "3"
+      ],
+      "owner": "6VbdP3K547TPKIK7WUlRew5UD5Mig9VizW3HZp8A",
+      "recycle": true,
+      "locked": true,
+      "appdata": {
+        "version": 1,
+        "data": "CdXi8_r00"
+      },
+      "picture": "",
+      "lastupdated": "2018-04-21T00:53:06",
+      "version": 2
+    },
+    "o8mFWopq1GF802r": {
+      "name": "Wake Up end",
+      "lights": [
+        "3"
+      ],
+      "owner": "6VbdP3K547TPKIK7WUlRew5UD5Mig9VizW3HZp8A",
+      "recycle": true,
+      "locked": true,
+      "appdata": {
+        "version": 1,
+        "data": "3UKuj_r00"
+      },
+      "picture": "",
+      "lastupdated": "2018-04-21T00:53:06",
+      "version": 2
+    },
+    "ZxIMO6IZbpcl5w0": {
+      "name": "Relax",
+      "lights": [
+        "5",
+        "6"
+      ],
+      "owner": "6VbdP3K547TPKIK7WUlRew5UD5Mig9VizW3HZp8A",
+      "recycle": false,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "MQr8P_r06_d01"
+      },
+      "picture": "",
+      "lastupdated": "2018-04-21T00:53:07",
+      "version": 2
+    },
+    "sufVqeeYDFY9x6e": {
+      "name": "Read",
+      "lights": [
+        "5",
+        "6"
+      ],
+      "owner": "6VbdP3K547TPKIK7WUlRew5UD5Mig9VizW3HZp8A",
+      "recycle": false,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "yAM0b_r06_d02"
+      },
+      "picture": "",
+      "lastupdated": "2018-04-21T00:53:07",
+      "version": 2
+    },
+    "ZQ5FHqRqoqbN7Rw": {
+      "name": "Concentrate",
+      "lights": [
+        "5",
+        "6"
+      ],
+      "owner": "6VbdP3K547TPKIK7WUlRew5UD5Mig9VizW3HZp8A",
+      "recycle": false,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "MM0fs_r06_d03"
+      },
+      "picture": "",
+      "lastupdated": "2018-04-21T00:53:07",
+      "version": 2
+    },
+    "WTiri0fCwI2GMou": {
+      "name": "Energize",
+      "lights": [
+        "5",
+        "6"
+      ],
+      "owner": "6VbdP3K547TPKIK7WUlRew5UD5Mig9VizW3HZp8A",
+      "recycle": false,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "h4HPX_r06_d04"
+      },
+      "picture": "",
+      "lastupdated": "2018-04-21T00:53:07",
+      "version": 2
+    },
+    "ND9MmveTQAAIVhI": {
+      "name": "Bright",
+      "lights": [
+        "5",
+        "6"
+      ],
+      "owner": "6VbdP3K547TPKIK7WUlRew5UD5Mig9VizW3HZp8A",
+      "recycle": false,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "6KQ8K_r06_d05"
+      },
+      "picture": "",
+      "lastupdated": "2018-04-21T00:53:07",
+      "version": 2
+    },
+    "QQUyeo02iyjzuOJ": {
+      "name": "Dimmed",
+      "lights": [
+        "5",
+        "6"
+      ],
+      "owner": "6VbdP3K547TPKIK7WUlRew5UD5Mig9VizW3HZp8A",
+      "recycle": false,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "tONEV_r06_d06"
+      },
+      "picture": "",
+      "lastupdated": "2018-04-21T00:53:07",
+      "version": 2
+    },
+    "W42czNceAnfEUiS": {
+      "name": "Nightlight",
+      "lights": [
+        "5",
+        "6"
+      ],
+      "owner": "6VbdP3K547TPKIK7WUlRew5UD5Mig9VizW3HZp8A",
+      "recycle": false,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "fDukr_r06_d07"
+      },
+      "picture": "",
+      "lastupdated": "2018-04-21T00:53:08",
+      "version": 2
+    },
+    "pQ2dt4yaPRksBki": {
+      "name": "Savanna sunset",
+      "lights": [
+        "5",
+        "6"
+      ],
+      "owner": "6VbdP3K547TPKIK7WUlRew5UD5Mig9VizW3HZp8A",
+      "recycle": false,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "J1WYH_r06_d15"
+      },
+      "picture": "",
+      "lastupdated": "2018-04-21T00:53:08",
+      "version": 2
+    },
+    "h3AirkqJnSIf-xP": {
+      "name": "Tropical twilight",
+      "lights": [
+        "5",
+        "6"
+      ],
+      "owner": "6VbdP3K547TPKIK7WUlRew5UD5Mig9VizW3HZp8A",
+      "recycle": false,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "Q4U04_r06_d16"
+      },
+      "picture": "",
+      "lastupdated": "2018-04-21T00:53:08",
+      "version": 2
+    },
+    "laFxmDZi48U9HGk": {
+      "name": "Arctic aurora",
+      "lights": [
+        "5",
+        "6"
+      ],
+      "owner": "6VbdP3K547TPKIK7WUlRew5UD5Mig9VizW3HZp8A",
+      "recycle": false,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "huwXz_r06_d17"
+      },
+      "picture": "",
+      "lastupdated": "2018-04-21T00:53:08",
+      "version": 2
+    },
+    "AlK4B2PpmJKtI-F": {
+      "name": "Spring blossom",
+      "lights": [
+        "5",
+        "6"
+      ],
+      "owner": "6VbdP3K547TPKIK7WUlRew5UD5Mig9VizW3HZp8A",
+      "recycle": false,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "labUw_r06_d18"
+      },
+      "picture": "",
+      "lastupdated": "2018-04-21T00:53:08",
+      "version": 2
+    }
+  },
+  "rules": {
+    "1": {
+      "name": "L_04_CevlR_Start",
+      "owner": "6VbdP3K547TPKIK7WUlRew5UD5Mig9VizW3HZp8A",
+      "created": "2018-02-16T15:10:16",
+      "lasttriggered": "none",
+      "timestriggered": 0,
+      "status": "enabled",
+      "recycle": true,
+      "conditions": [
+        {
+          "address": "/sensors/3/state/flag",
+          "operator": "eq",
+          "value": "true"
+        }
+      ],
+      "actions": [
+        {
+          "address": "/schedules/2",
+          "method": "PUT",
+          "body": {
+            "status": "enabled"
+          }
+        },
+        {
+          "address": "/groups/1/action",
+          "method": "PUT",
+          "body": {
+            "scene": "DwtbDGYhkXb13re"
+          }
+        }
+      ]
+    },
+    "2": {
+      "name": "Wake up 1.end",
+      "owner": "6VbdP3K547TPKIK7WUlRew5UD5Mig9VizW3HZp8A",
+      "created": "2018-02-16T15:10:16",
+      "lasttriggered": "none",
+      "timestriggered": 0,
+      "status": "enabled",
+      "recycle": true,
+      "conditions": [
+        {
+          "address": "/sensors/3/state/flag",
+          "operator": "eq",
+          "value": "true"
+        },
+        {
+          "address": "/sensors/3/state/flag",
+          "operator": "ddx",
+          "value": "PT14:10:00"
+        }
+      ],
+      "actions": [
+        {
+          "address": "/groups/4/action",
+          "method": "PUT",
+          "body": {
+            "on": false
+          }
+        },
+        {
+          "address": "/sensors/3/state",
+          "method": "PUT",
+          "body": {
+            "flag": false
+          }
+        }
+      ]
+    }
+  },
+  "sensors": {
+    "1": {
+      "state": {
+        "daylight": null,
+        "lastupdated": "none"
+      },
+      "config": {
+        "on": true,
+        "configured": false,
+        "sunriseoffset": 30,
+        "sunsetoffset": -30
+      },
+      "name": "Daylight",
+      "type": "Daylight",
+      "modelid": "PHDL00",
+      "manufacturername": "Philips",
+      "swversion": "1.0"
+    },
+    "3": {
+      "state": {
+        "flag": false,
+        "lastupdated": "none"
+      },
+      "config": {
+        "on": true,
+        "reachable": true
+      },
+      "name": "Wake up 1",
+      "type": "CLIPGenericFlag",
+      "modelid": "WAKEUP",
+      "manufacturername": "Philips",
+      "swversion": "1.0",
+      "uniqueid": "L_04_CevlR",
+      "recycle": true
+    }
+  },
+  "resourcelinks": {
+    "61665": {
+      "name": "Wake up 1",
+      "description": "Wake up 1 behavior",
+      "type": "Link",
+      "classid": 20101,
+      "owner": "6VbdP3K547TPKIK7WUlRew5UD5Mig9VizW3HZp8A",
+      "recycle": false,
+      "links": [
+        "/sensors/3",
+        "/schedules/1",
+        "/schedules/2",
+        "/groups/1",
+        "/groups/4",
+        "/rules/1",
+        "/rules/2",
+        "/scenes/DwtbDGYhkXb13re",
+        "/scenes/o8mFWopq1GF802r"
+      ]
+    }
+  }
+}
+Killing API

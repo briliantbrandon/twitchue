@@ -22,14 +22,14 @@
 						case 'follow':
 							//code to handle follow events
 							console.log(eventData.message);
-							$.post("http://localhost:8000/follow/", function(data, status){
+							$.post("http://localhost:8000/events/follow/", function(data, status){
 								console.log("Express request: " + status);
 							});
 						break;
 						case 'subscription':
 							//code to handle subscription events
 							console.log(eventData.message);
-							$.post("http://localhost:8000/subscribe/", function(data, status){
+							$.post("http://localhost:8000/events/subscribe/", function(data, status){
 								console.log("Express request: " + status);
 							});
 						break;
@@ -39,6 +39,17 @@
 					}
 				}
 			});
+
+			function subForm() {
+				$.post('http://localhost:8000/input/test/', function(data, status) {
+					var no = 'no';
+				});
+			}
 		</script>
+
+		<form method="post" name="test" action="javascript:subForm()">
+			<input type="text" name="textbox" id="textbox" />
+			<input type="submit" name="submit" value="Submit" />
+		</form>
 	</body>
 </html>
