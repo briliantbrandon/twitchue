@@ -23,4 +23,11 @@ module.exports = function(app, hueAPI, test) {
         //return an error if a bridge could not be found
         res.send();
     });
+
+    app.get('/hue/config', (req, res) => {
+        //hueAPI.fullState().then(displayResult).done();
+        hueAPI.fullState().then(function (data){
+            res.send(data);
+        }).done()
+    });
 }
