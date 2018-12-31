@@ -1,20 +1,15 @@
-module.exports = function(app, hueAPI, test) {
+module.exports = function(app, hueAPI) {
     app.post('/events/follow', (req, res) => {
         console.log("We got a new follower!");
+        lights = req.body.lights;
+        effect(hueAPI, lights, {'effect': 'colorloop'}, {'effect': 'none'});
         res.send();
     });
 
     app.post('/events/subscribe', (req, res) => {
         console.log("We got a new subscriber!");
-        
-        hueAPI.setGroupLightState(6, {"on": false})
-
-        res.send();
-    });
-
-    app.post('/input/test', (req, res) => {
-        console.log("FORM WAS SUBMITTED BITCH!");
-        test = "testy boiiiis";
+        lights = req.body.lights;
+        effect(hueAPI, lights, {'effect': 'colorloop', 'alert': 'lselect'}, {'effect': 'none', 'alert': 'none'});
         res.send();
     });
 
@@ -30,4 +25,15 @@ module.exports = function(app, hueAPI, test) {
             res.send(data);
         }).done()
     });
+
+    function effect(hueAPI, lights, effect, stop) {
+        for(i = 0; i < lights.length; i++) {
+            hueAPI.setLightState(lights[i], effect);
+            setTimeout(stopLight, 10000, hueAPI, lights[i], stop);
+        }
+    }
+    
+    function stopLight(hueAPI, light, stop) {
+        hueAPI.setLightState(light, stop);
+    }
 }

@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/briliantbrandon/twitchue#readme",
   "devDependencies": {
+    "body-parser": "^1.18.3",
     "electron": "^3.0.10",
     "express": "^4.16.3",
     "node-hue-api": "^2.4.4",

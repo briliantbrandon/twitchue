@@ -1,3 +1,11 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
+
+#content ul {
+    list-style-type: none;
+}
+
+#content li {
+    list-style-type: none;
+}
