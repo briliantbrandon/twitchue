@@ -1,7 +1,4 @@
 node_modules/
 package-lock.json
 .vscode/
-./config.js
-gui/scripts/config.js
-output.txt
-.DS_Store/
+.DS_Store

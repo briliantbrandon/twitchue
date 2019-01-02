@@ -4,56 +4,10 @@
 		<script>if (typeof module === 'object') {window.module = module; module = undefined;}</script>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 		<script src='https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.3/socket.io.js' type='text/javascript'></script>
-		<script type="text/javascript" src="scripts/config.js"></script>
 		<script type="text/javascript" src="scripts/bootstrap.js"></script>
 		<script>if (window.module) module = window.module;</script>
 	</head>
 	<body>	
-		<!-- Base of this is the streamlabs websocket sample code with some minor tweaks -->
-		<script type = 'text/javascript'>			
-			//Connect to socket
-			const streamlabs = io(`https://sockets.streamlabs.com?token=` + socketToken);
-			
-			//Perform Action on event
-			streamlabs.on('event', (eventData) => {
-				if (!eventData.for || eventData.for === 'streamlabs' && eventData.type === 'donation') {
-					//code to handle donation events
-					console.log(eventData.message);
-				}
-				if (eventData.for === 'twitch_account') {
-					switch(eventData.type) {
-						case 'follow':
-							//code to handle follow events
-							console.log(eventData.message);
-							$.ajax({
-								type: "POST",
-								url: "http://localhost:8000/events/follow/",
-								data: JSON.stringify(getCheckedLights()),
-								contentType: "application/json"
-							}).done(function(data) {
-								//console.log(data);
-							});
-						break;
-						case 'subscription':
-							//code to handle subscription events
-							console.log(eventData.message);;
-							$.ajax({
-								type: "POST",
-								url: "http://localhost:8000/events/subscribe/",
-								data: JSON.stringify(getCheckedLights()),
-								contentType: "application/json"
-							}).done(function(data) {
-								//console.log(data);
-							});
-
-						break;
-						default:
-							//default case
-							console.log(eventData.message);
-					}
-				}
-			});
-		</script>
 		<ul id="content"></ul>
 	</body>
 </html>

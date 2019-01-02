@@ -32,6 +32,14 @@ $(document).ready(function() {
             document.getElementById("content").appendChild(g);
         }
     });
+
+    $.ajax({
+        url: 'http://localhost:8000/streamlabs/token',
+        method: 'GET',
+        dataType: 'json'
+    }).done(function(data) {
+        setupSocket(data.wstoken);
+    });
 });
 
 function getCheckedLights() {
@@ -48,4 +56,62 @@ function getCheckedLights() {
     checkedLights.lights = checked;
 
     return checkedLights;
+}
+
+function setupSocket(socketToken) {
+    //Connect to socket
+    const streamlabs = io(`https://sockets.streamlabs.com?token=` + socketToken);
+    
+    //Perform Action on event
+    streamlabs.on('event', (eventData) => {
+        if (!eventData.for || eventData.for === 'streamlabs' && eventData.type === 'donation') {
+            //code to handle donation events
+            console.log(eventData.message);
+        }
+        if (eventData.for === 'twitch_account') {
+            switch(eventData.type) {
+                case 'follow':
+                    //code to handle follow events
+                    console.log(eventData.message);
+                    $.ajax({
+                        type: "POST",
+                        url: "http://localhost:8000/events/follow/",
+                        data: JSON.stringify(getCheckedLights()),
+                        contentType: "application/json"
+                    }).done(function(data) {
+                        //console.log(data);
+                    });
+                break;
+                case 'subscription':
+                    //code to handle subscription events
+                    console.log(eventData.message);
+                    $.ajax({
+                        type: "POST",
+                        url: "http://localhost:8000/events/subscribe/",
+                        data: JSON.stringify(getCheckedLights()),
+                        contentType: "application/json"
+                    }).done(function(data) {
+                        //console.log(data);
+                    });
+
+                break;
+                case 'bits':
+                    //code to handle subscription events
+                    console.log(eventData.message);
+                    $.ajax({
+                        type: "POST",
+                        url: "http://localhost:8000/events/bits/",
+                        data: JSON.stringify(getCheckedLights()),
+                        contentType: "application/json"
+                    }).done(function(data) {
+                        //console.log(data);
+                    });
+
+                break;
+                default:
+                    //default case
+                    console.log(eventData.message);
+            }
+        }
+    });
 }
