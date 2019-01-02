@@ -29,7 +29,7 @@ $(document).ready(function() {
 
             //Append the nested UL with all the lights and the LI for the whole group
             g.appendChild(ul);
-            document.getElementById("content").appendChild(g);
+            document.getElementById("lights").appendChild(g);
         }
     });
 

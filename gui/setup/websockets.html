@@ -1,11 +1,23 @@
 <!DOCTYPE html>
 <html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="../style/theme.css" />
+        <link rel="stylesheet" type="text/css" href="style/setup.css" />
+    </head>
     <body>
-        <h2>Paste your Websocket Token from Streamlabs below:</h2>
-        <form action="javascript:submitWebsocketToken()">
-            <input type="input" id="token" name="token" />
-            <input type="submit" id="tokenSubmit" value="Submit" />
-        </form>
-        <script type="text/javascript" src="../../app/setuprenderer.js"></script>
+        <div id="header">
+            <img src="../images/twitchue-logo.png" id="logo" />
+            <img src="../images/menu-button.png" id="menu" />
+        </div>
+        <div id="content" class="flex-container">
+            <div class="flex-item announcement">
+                Paste your Websocket Token from Streamlabs below: <br />
+                <span class="subtext">(The token can be found at <a href="javascript:launchStreamlabs()">https://streamlabs.com/dashboard#/apisettings</a> under the "API Tokens" tab.)</span>
+                <br /><br />
+                <input type="input" id="token" name="token" />
+                <a href="javascript:submitWebsocketToken()" id="continue" />Continue</a>
+            </div>
+            <script type="text/javascript" src="../../app/setuprenderer.js"></script>
+        </div>
     </body>
 </html>
