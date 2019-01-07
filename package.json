@@ -1,0 +1,30 @@
+{
+  "name": "twitchue",
+  "version": "0.1.0",
+  "description": "Twitchue is an application that control Hue lights based on Webhook subscription to the Twitch API.",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/briliantbrandon/twitchue.git"
+  },
+  "author": "Brandon Hollowell",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/briliantbrandon/twitchue/issues"
+  },
+  "homepage": "https://github.com/briliantbrandon/twitchue#readme",
+  "devDependencies": {
+    "body-parser": "^1.18.3",
+    "electron": "^3.0.10",
+    "electron-store": "^2.0.0",
+    "express": "^4.16.3",
+    "fs": "0.0.1-security",
+    "node-hue-api": "^2.4.4",
+    "nodemon": "^1.17.5",
+    "path": "^0.12.7"
+  }
+}
